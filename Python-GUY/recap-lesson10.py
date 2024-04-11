@@ -3,7 +3,7 @@ from tkinter import ttk
 
 root = tk.Tk()
 
-root.title("Practice-01")
+root.title("lesson10")
 root.geometry("300x300")
 root.resizable(False, False)
 
