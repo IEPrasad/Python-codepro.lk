@@ -17,11 +17,11 @@ entry = ttk.Entry(frame3)
 entry.pack(pady=10)
 
 button = ttk.Button(frame3, text="Submit")
-bytton.pack()
+button.pack()
 
-frame4 -=   ttk.Frame(root, width=200, height=100,relief=tk.GROOVE)
+frame4 =   ttk.Frame(root, width=200, height=100,relief=tk.GROOVE)
 frame4.pack_propagate(False)
-fame4.pack(pady=30)
+frame4.pack(pady=30)
 
 label = ttk.Label(frame4, text="Welcome")
 label.pack(pady=10)
