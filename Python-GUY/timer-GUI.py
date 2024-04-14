@@ -46,3 +46,6 @@ root = tk.Tk()
 app = TimerApp(root)
 root.mainloop()
 
+
+# This is just generated code 
+# but I learned many things from this code 
