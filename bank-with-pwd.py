@@ -79,3 +79,15 @@ print("Bob's balance:", bank.get_account_balance("456", "bob_pass"))
 
 # Delete an account
 bank.delete_account("123", "alice_pass")
+
+'''
+Assumptions:
+
+    Account IDs are unique and represented as strings.
+    Passwords are required for account creation and are used for verification during account operations.
+    Initial balance is optional when creating an account; if not provided, it defaults to 0.
+    Deposits and withdrawals must be positive amounts.
+    Transfers only happen if the sender has enough balance, the amount is positive, and the password is correct.
+    The system doesn't handle errors or edge cases like non-numeric inputs, negative values, or incorrect account IDs.
+
+'''
